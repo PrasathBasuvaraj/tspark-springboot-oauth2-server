@@ -1,30 +1,14 @@
-# Spring Boot Template Repository
+# TechSpark OAuth 2.0 Authorization Server
 
-Welcome to the Spring Boot Template Repository! This project provides a ready-to-use Spring Boot setup, helping you jumpstart new applications quickly and efficiently.
+This project is a Spring Boot application that provides an OAuth 2.0 Authorization Server. It uses the [Spring Security](https://spring.io/projects/spring-security) framework to secure the application and provide OAuth 2.0 support.
 
-## Getting Started
+## Setup the Project
 
-- Click the “Use this template” button at the top of this repository’s page.
-- Provide a name for your new repository and choose whether it should be public or private.
-- Click “Create repository from template” to generate your own copy.
- 
-## Clone Your New Repository
+- Run `https://github.com/PrasathBasuvaraj/tspark-springboot-oauth2-server.git`  clone the repository
+- Run `cd tspark-springboot-oauth2-server` to navigate to the project directory.
+- Run `./gradlew build` to build the project.
+- Run `./gradlew bootRun` to start the application.
+  - The application will be accessible at http://localhost:8080.
 
-- Open your new repository on GitHub.
-- Click the “Code” button and copy the repository URL.
-- Run git clone <your-repo-url> in your terminal to clone the code locally.
-
-## Customize Project Settings
-
-- Update the build.gradle (Gradle) file with your group ID, artifact ID, or any relevant project information.
-- If necessary, rename packages or modules to suit your organization’s naming conventions.
-
-## Build and Run the Application
-
-```shell
-./gradlew build bootRun
-```
-
-- Access the running application by opening your browser at http://localhost:8080 (unless you changed the port).
 
 
